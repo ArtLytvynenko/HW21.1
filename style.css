@@ -1,0 +1,35 @@
+body {
+    font-family: monospace;
+    background:lightblue;
+    color: #f80707;
+    animation: blink 1s steps(1) infinite;
+    font-size: large;
+}
+
+@keyframes blink {
+    50% { color: black; }
+}
+h1 {
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+header{
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+header h1{
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+header nav ul{
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+
